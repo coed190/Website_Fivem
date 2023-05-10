@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Passion+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.main-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#f94949,20%, #d51212);
+    position: relative;
+}
+.hero header .logo h2 a {
+    display: block;
+    font-size: 32;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+    border-bottom: 2px solid white;
+}
+nav ul li.active a{
+ border-bottom: 2px solid white;   
+}
+nav ul li.btn a{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5a8a8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: 4s;
+}
+.content .main-text h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.content .main-text h1{
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.content .main-text h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    
+}
+.content .main-text p{
+    max-width: 100%;
+    width: 480;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.content .main-text a{
+ display: inline-block;
+ text-decoration: none;
+ color: black;
+ background: white;
+ border: 1px solid white;
+ padding: 9px 25px;   
+ line-height: 1.4;
+ border-radius: 30px;
+ font-size: 14px;
+ font-weight: 500;
+}
+.content .main-text a:hover{
+  transform: scale(1.2);
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: white;
+  transition: 4s;
+}
+.content .main-text a.cta{
+    border: 1px solid #ffffff;
+    color: white;
+    background: transparent;
+    margin-left: 20px;
+}
+.content .main-text a.cta i{
+margin-right: 12px;
+}
+.content .main-text a.cta:hover{
+color: black;
+background: white;
+border: 1px solid white;
+transition: .4s;
+}
+.image{
+    position: absolute;
+width: 80%;
+height: 85%;
+bottom: 0;
+right: 0;
+left: 15%;
+text-align: right;
+}
+.image img{
+height: 100%;
+}
